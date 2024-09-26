@@ -1,0 +1,27 @@
+{
+  "name": "noble",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "noble": "tsx noble.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
+    "@typescript-eslint/parser": "^5.5.0",
+    "eslint": "^8.7.0",
+    "eslint-plugin-o1js": "^0.4.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4"
+  },
+  "peerDependencies": {
+    "o1js": "^1.6.0"
+  },
+  "dependencies": {
+    "@noble/curves": "^1.6.0",
+    "@noble/hashes": "^1.5.0"
+  }
+}
